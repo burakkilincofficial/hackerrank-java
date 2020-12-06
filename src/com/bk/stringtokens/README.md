@@ -2,17 +2,17 @@ Given a string, , matching the regular expression [A-Za-z !,?._'@]+, split the s
 
 Note: You may find the String.split method helpful in completing this challenge.
 
-##Input Format
+## Input Format
 
 A single string, .
 
 Constraints<br />
  is composed of any of the following: English alphabetic letters, blank spaces, exclamation points (!), commas (,), question marks (?), periods (.), underscores (_), apostrophes ('), and at symbols (@).
-##Output Format
+## Output Format
 On the first line, print an integer, , denoting the number of tokens in string  (they do not need to be unique). Next, print each of the  tokens on a new line in the same order as they appear in input string .
-##Sample Input
+## Sample Input
 He is a very very good boy, isn't he?
-###Sample Output
+### Sample Output
 
 10<br />
 He<br />
@@ -26,5 +26,5 @@ isn<br />
 t<br />
 he<br />
 
-##Explanation
+## Explanation
 We consider a token to be a contiguous segment of alphabetic characters. There are a total of  such tokens in string , and each token is printed in the same order in which it appears in string .

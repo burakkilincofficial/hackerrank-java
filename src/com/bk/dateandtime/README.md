@@ -5,19 +5,19 @@ You are given a date. You just need to write the method, , which returns the day
 For example, if you are given the date , the method should return  as the day on that date.
 
 ![alt text](https://s3.amazonaws.com/hr-assets/0/1514458312-c097047ed4-calendar_class.png)
-##Input Format
+## Input Format
 
 A single line of input containing the space separated month, day and year, respectively, in    format.
 
 Constraints
 
-##Output Format
+## Output Format
 
 Output the correct day in capital letters.
 
-###Sample Input
+### Sample Input
 08 05 2015
-###Sample Output
+### Sample Output
 WEDNESDAY
 Explanation
 

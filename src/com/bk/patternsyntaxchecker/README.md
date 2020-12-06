@@ -4,21 +4,21 @@ In this problem, you are given a pattern. You have to check whether the syntax o
 
 Note: In this problem, a regex is only valid if you can compile it using the Pattern.compile method.
 
-Input Format
+## Input Format
 
 The first line of input contains an integer , denoting the number of test cases. The next  lines contain a string of any printable characters representing the pattern of a regex.
 
-Output Format
+## Output Format
 
 For each test case, print Valid if the syntax of the given pattern is correct. Otherwise, print Invalid. Do not print the quotes.
 
-#Sample Input
+### Sample Input
 3<br />
 ([A-Z])(.+)<br />
 [AZ[a-z](a-z)<br />
 batcatpat(nat
 
-#Sample Output
+### Sample Output
 Valid<br />
 Invalid<br />
 Invalid

@@ -4,8 +4,8 @@ Please complete the partially completed code in the editor. If your code success
 
  can range between  to  inclusive.
 
-#Sample Input 0
+# Sample Input 0
 100
 
-#Sample Output 0
+# Sample Output 0
 Good job

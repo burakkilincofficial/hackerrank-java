@@ -8,23 +8,23 @@ where  is  formatted according to the appropriate Locale's currency.
 
 Note: India does not have a built-in Locale, so you must construct one where the language is en (i.e., English).
 
-##Input Format
+## Input Format
 A single double-precision number denoting .<br />
 Constraint
 
-##Output Format
+## Output Format
 On the first line, print US: u where  is  formatted for US currency.<br />
 On the second line, print India: i where  is  formatted for Indian currency.<br />
 On the third line, print China: c where  is  formatted for Chinese currency.<br />
 On the fourth line, print France: f, where  is  formatted for French currency.
 
-###Sample Input
+### Sample Input
 12324.134
-###Sample Output
+### Sample Output
 US: $12,324.13<br />
 India: Rs.12,324.13<br />
 China: ￥12,324.13<br />
 France: 12 324,13 €<br />
 
-##Explanation
+## Explanation
 Each line contains the value of  formatted according to the four countries' respective currencies.
